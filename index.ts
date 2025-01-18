@@ -3,7 +3,7 @@ import {
 	NotificationsSDK
 } from "github.com/octarine-public/wrapper/index"
 
-NotificationsSDK.Push()
+// NotificationsSDK.Push()
 
 console.log("Hello world!")
 EventsSDK.on("GameStarted", () => {
